@@ -1,6 +1,7 @@
 .mini-sidebar {
   display: none;
 }
+
 .sidebar {
   flex: 0.4;
   padding: 5px;
@@ -14,15 +15,18 @@
   background-color: #fff;
   margin-top: 5vh;
 }
+
 @media (max-width: 767px) {
   .sidebar {
     top: 12px;
   }
 }
+
 @media (max-width: 700px) {
   .sidebar {
     display: none;
   }
+
   .mini-sidebar {
     display: inherit;
     top: 30px;
@@ -45,14 +49,17 @@
   cursor: pointer;
   color: #1a1919;
 }
+
 .sidebar-active {
   background-color: #1c065e;
   border-radius: 20px;
   color: #f01cf0;
 }
+
 .sidebar-active h2 {
   color: #f01cf0;
 }
+
 .sidebar-icon {
   margin: 0 !important;
   color: red !important;
@@ -67,9 +74,23 @@
   border-radius: 20px;
   transition: color 100ms ease-out;
 }
-.sidebar-option > h2 {
+
+.sidebar-option>h2 {
   font-size: medium;
   font-weight: 600;
   margin-right: 20px;
   padding-top: 26px;
 }
+
+/* Increase icon size for clear vision */
+.anticon svg {
+  height: 1.1rem !important;
+  width: 1.1rem !important;
+}
+
+/* .ant-avatar { For Future Avatar Task
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
